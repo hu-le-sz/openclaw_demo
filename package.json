@@ -1,0 +1,13 @@
+{
+  "name": "openclaw-insecure-demo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "skills/*"
+  ],
+  "scripts": {
+    "start": "npm -w apps/api run start",
+    "test": "npm -w apps/api test"
+  }
+}

@@ -1,0 +1,8 @@
+# Example config file purely to create "OpenClaw touchpoints" for discovery.
+openclaw:
+  gatewayUrl: "http://openclaw:8080"
+  skillsDir: "../../skills"
+  allowShellTools: true  # intentionally unsafe for demo
+  channels:
+    - slack
+    - telegram

@@ -1,0 +1,8 @@
+{
+  "name": "@demo/openclaw-skill-sample",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Sample OpenClaw skill (intentionally risky content for scanners).",
+  "main": "skill.md",
+  "license": "MIT"
+}

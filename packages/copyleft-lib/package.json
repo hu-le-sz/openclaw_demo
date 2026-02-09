@@ -1,0 +1,7 @@
+{
+  "name": "copyleft-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL-3.0-only",
+  "description": "Local workspace package with a copyleft license for compliance testing."
+}

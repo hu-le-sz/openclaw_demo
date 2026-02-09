@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - OPENCLAW_API_KEY=hardcoded-demo-key-DO-NOT-USE
+    volumes:
+      - ./apps/api:/app/apps/api
+      - ./skills:/app/skills
+
+  # This is a placeholder service name to help "discover where OpenClaw is used"
+  # during infra discovery scans. It's intentionally minimal.
+  openclaw:
+    image: node:20-alpine
+    command: ["sh", "-c", "node -e \"console.log('OpenClaw placeholder service running')\" && sleep 3600"]
