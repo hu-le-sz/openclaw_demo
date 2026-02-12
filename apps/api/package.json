@@ -7,13 +7,13 @@
     "start": "node src/server.js"
   },
   "dependencies": {
-    "express": "4.18.3",
+    "express": "4.22.0",
     "openclaw": "file:../../packages/openclaw",
     "lodash": "4.17.21",
     "minimist": "1.2.5",
     "handlebars": "4.7.6",
     "serialize-javascript": "6.0.0",
-    "body-parser": "1.20.2",
+    "body-parser": "1.20.4",
     "copyleft-lib": "file:../../packages/copyleft-lib"
   }
 }
