@@ -12,7 +12,7 @@
     "lodash": "4.17.21",
     "minimist": "1.2.5",
     "handlebars": "4.7.6",
-    "serialize-javascript": "6.0.0",
+    "serialize-javascript": "7.0.3",
     "body-parser": "1.20.2",
     "copyleft-lib": "file:../../packages/copyleft-lib"
   }
