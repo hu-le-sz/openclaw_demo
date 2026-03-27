@@ -7,8 +7,8 @@
     "start": "node src/server.js"
   },
   "dependencies": {
-    "express": "4.18.3",
-    "openclaw": "file:../../packages/openclaw",
+    "express": "4.22.0",
+    "openclaw": "2026.3.23",
     "lodash": "4.17.21",
     "minimist": "1.2.5",
     "handlebars": "4.7.6",
